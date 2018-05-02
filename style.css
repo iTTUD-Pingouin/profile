@@ -28,6 +28,10 @@ a:hover {
   opacity: 0.5;
 }
 
+ul {
+  list-style: none;
+}
+
 #card-info p {
   padding-right: 50px;
   padding-left: 50px;
@@ -95,8 +99,19 @@ a:hover {
   top: 0;
   bottom: 0;
   background-color: #3B4045;
+  color: white;
+  height: 100%;
 }
 #page-content {
   margin-left: 300px;
 }
+
+.sidebar-item {
+  padding-top: 138px;
+}
+
+.sidebar-item a {
+  color: #FFFFFF;
+}
+
 
