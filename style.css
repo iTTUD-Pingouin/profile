@@ -88,4 +88,15 @@ a:hover {
   text-align: justify;
 }
 
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #3B4045;
+}
+#page-content {
+  margin-left: 300px;
+}
 
