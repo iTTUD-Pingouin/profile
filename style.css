@@ -28,10 +28,6 @@ a:hover {
   opacity: 0.5;
 }
 
-ul {
-  list-style: none;
-}
-
 #card-info p {
   padding-right: 50px;
   padding-left: 50px;
@@ -58,7 +54,7 @@ ul {
 .container {
   background-color: white;
   padding: 20px;
-  width: 600px;
+  width: 90%;
   margin: 20px auto;
   border-radius: 3px;
 }
@@ -94,24 +90,33 @@ ul {
 
 #sidebar {
   position: fixed;
-  width: 300px;
+  width: 100px;
   left: 0;
   top: 0;
   bottom: 0;
   background-color: #3B4045;
-  color: white;
-  height: 100%;
 }
+
+#sidebar > ul > li {
+  color: rgba(240,240,240, 0.5);
+  list-style: none;
+  padding-top: 50px;
+  font-size: 24px;
+}
+
+#sidebar > ul > li > a {
+  color: rgba(240,240,240, 0.5);
+}
+
+
+
+
 #page-content {
-  margin-left: 300px;
+  margin-left: 92px;
 }
 
-.sidebar-item {
-  padding-top: 138px;
-}
 
-.sidebar-item a {
-  color: #FFFFFF;
+.fa-right {
+  padding-right: 7px;
 }
-
 

@@ -3,59 +3,65 @@
     <meta charset="utf-8">
     <title>Basic infos</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
 
     <div id="sidebar">
-      <div>
-        <ul>
-          <li class="sidebar-item"><a href="#card-info"> Profiles</a></li>
-          <li class="sidebar-item"><a href="#favorite-movies">Favorite movies</a></li>
-          <li class="sidebar-item"><a href="#help">Help</a></li>
-        </ul>
-      </div>
+      <ul>
+        <li>
+          <a href="#card-info"><i class="far fa-user"></i></a>
+        </li>
+        <li>
+          <a href="#movies-section"><i class="fas fa-film"></i></a>
+        </li>
+        <li>
+          <a href="#info-section"><i class="fas fa-info-circle"></i></a>
+        </li>
+      </ul>
     </div>
 
     <div id="page-content">
-      <div class ="container text-center shadowed" id="card-info">
-        <img src="images/profile_picture.jpeg" alt="Guillaume Dutti" class="img-circle shadowed">
-        <h1>Guillaume Dutti</h1>
-        <h2>Student @Le Wagon</h2>
 
-        <p>
-          After 3 years in financial markets, I got bored and launched Le Wagon. Our mission: <strong>bring technical skills to creative people</strong>.
-        </p>
+        <div class ="container text-center shadowed" id="card-info">
+          <img src="images/profile_picture.jpeg" alt="Guillaume Dutti" class="img-circle shadowed">
+          <h1>Guillaume Dutti</h1>
+          <h2>Student @Le Wagon</h2>
 
-        <div class="btn-blue">
-          <a href="https://www.linkedin.com/in/guillaume-dutti/">See for yourself</a>
+          <p>
+            After 3 years in financial markets, I got bored and launched Le Wagon. Our mission: <strong>bring technical skills to creative people</strong>.
+          </p>
+
+          <div class="btn-blue">
+            <a href="https://www.linkedin.com/in/guillaume-dutti/">See for yourself</a>
+          </div>
+
         </div>
 
-      </div>
 
       <div class ="container text-center shadowed">
         <ul class="list-inline center-list">
           <li>
             <a href="https://www.facebook.com/travisDbickle.ny">
-              <i class="fa fa-facebook"></i> Facebook
+              <i class="fab fa-facebook-f fa-right" ></i>   Facebook
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/guillaume-dutti/">
-              <i class="fa fa-linkedin"></i> Linkedin
+              <i class="fab fa-linkedin-in fa-right"></i>   Linkedin
             </a>
           </li>
           <li>
             <a href="https://twitter.com/">
-              <i class="fa fa-twitter"></i> Twitter
+              <i class="fab fa-twitter fa-right"></i>   Twitter
             </a>
           </li>
         </ul>
       </div>
 
-      <div class ="container text-center shadowed" id="favorite-movies">
+      <div class ="container text-center shadowed" id="movies-section">
         <h2>My Favorite movies</h2>
         <table>
           <tbody>
@@ -90,7 +96,7 @@
         </table>
       </div>
 
-      <div class ="container text-center shadowed" id="help">
+      <div class ="container text-center shadowed" id="info-section">
         <h2>About this page</h2>
         This page has been coded during the <a href="https://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
 
@@ -115,3 +121,4 @@
     </div>
   </body>
 </html>
+
